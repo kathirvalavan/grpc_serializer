@@ -1,0 +1,48 @@
+PATH
+  remote: .
+  specs:
+    grpc_serializer (0.0)
+      google-protobuf (~> 3.6.1)
+      grpc (~> 1.18.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.4.4)
+    google-protobuf (3.6.1)
+    googleapis-common-protos-types (1.0.4)
+      google-protobuf (~> 3.0)
+    grpc (1.18.0)
+      google-protobuf (~> 3.1)
+      googleapis-common-protos-types (~> 1.0.0)
+    grpc-tools (1.17.1)
+    rake (10.5.0)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.1)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.17)
+  grpc-tools (~> 1.17.1)
+  grpc_serializer!
+  rake (~> 10.0)
+  rspec (~> 3.0)
+
+RUBY VERSION
+   ruby 2.5.5p157
+
+BUNDLED WITH
+   1.17.3
