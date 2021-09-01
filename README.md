@@ -2,7 +2,7 @@
 # A simple gem for nested grpc message encoding and decoding
 
 # Usage
-`$ gem install hashugar`
+`$ gem install grpc_serializer`
 
 ```
 Sample Proto file (.proto) :
