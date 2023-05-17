@@ -1,5 +1,5 @@
 # grpc_serializer
-# A simple gem for nested grpc message encoding and decoding
+# A simple Ruby gem for nested grpc message encoding and decoding
 
 # Usage
 `$ gem install grpc_serializer`
